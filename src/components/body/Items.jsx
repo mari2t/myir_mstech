@@ -1,35 +1,40 @@
 import React from "react";
+import imgPastURL from "../../../public/img/past.jpg";
+import imgNowURL from "../../../public/img/now.jpg";
+import imgFutureURL from "../../../public/img/future.png";
+import imgMstechURL from "../../../public/img/mstech.png";
+import imgTopURL from "../../../public/img/saize.jpg";
 
 export default function Items({ img, setImg, text, setText }) {
   let imgpath = "";
   let textValue = "";
   const onClickChange = (e) => {
     if (e.target.value === "過去") {
-      imgpath = "../../../public/img/past.jpg";
+      imgpath = imgPastURL;
       textValue =
         "東京出身です。（こんな名前ですが😂）仕事で3年間広島に住んでいました。旅行が趣味で、コロナ前は国内をうろうろしていました👜静岡、山梨、福島は未踏の地なので行ってみたいです🚄";
       setImg(imgpath);
       setText(textValue);
     } else if (e.target.value === "現在") {
-      imgpath = "../../../public/img/now.jpg";
+      imgpath = imgNowURL;
       textValue =
         "工学部→技術職で新卒から同じ会社にいますが将来のキャリアを模索中です🫠5歳の息子がいます。Robloxが好きでたまに一緒にやっています🎮好きなものはサイゼリヤ、ル・ポールのドラァグ・レースです😍";
       setImg(imgpath);
       setText(textValue);
     } else if (e.target.value === "未来") {
-      imgpath = "../../../public/img/future.PNG";
+      imgpath = imgFutureURL;
       textValue =
         "人生を通して好奇心を持つこと、健康であることが目標です🚩成し遂げたいことは息子を育てきること(直近目標はひらがなを覚えさせる👀）野望は家を買って一人暮らしをすることです🏠";
       setImg(imgpath);
       setText(textValue);
     } else if (e.target.value === "mstech") {
-      imgpath = "../../../public/img/mstech.PNG";
+      imgpath = imgMstechURL;
       textValue =
         "starterコースは2022/09～の4期を受講しました。Ms.Techの卒業時点では自分の作りたいものが作れるようになったり仕事の選択肢を増やせていたらいいなと思います🌱";
       setImg(imgpath);
       setText(textValue);
     } else if (e.target.value === "start") {
-      imgpath = "../../../public/img/saize.jpg";
+      imgpath = imgTopURL;
       textValue =
         "mari2tです。よろしくお願いします🌱課題準備もかねてReact＋Tailwind CSSで作成してみました💻写真はサイゼリヤのランチです🥗starterコースで使って以来アイコンとかはこれにしています🥗";
       setImg(imgpath);
