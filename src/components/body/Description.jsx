@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Description({ img, setImg, text, setText }) {
+export default function Description({ img, text }) {
   return (
     <div className="columns-1 w-1/2 ">
       <div className="mt-5 mb-2  bg-green-100 ml-5 mr-5 rounded-md min-h-full">

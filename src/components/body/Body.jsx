@@ -10,7 +10,7 @@ export default function Body() {
   return (
     <div className="flex justify-center ">
       <Items img={img} setImg={setImg} text={text} setText={setText} />
-      <Description img={img} setImg={setImg} text={text} setText={setText} />
+      <Description img={img} text={text} />
     </div>
   );
 }
