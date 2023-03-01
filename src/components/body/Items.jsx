@@ -17,13 +17,13 @@ export default function Items({ img, setImg, text, setText }) {
       setImg(imgpath);
       setText(textValue);
     } else if (e.target.value === "未来") {
-      imgpath = "../../../public/img/future.png";
+      imgpath = "../../../public/img/future.PNG";
       textValue =
         "人生を通して好奇心を持つこと、健康であることが目標です🚩成し遂げたいことは息子を育てきること(直近目標はひらがなを覚えさせる👀）野望は家を買って一人暮らしをすることです🏠";
       setImg(imgpath);
       setText(textValue);
     } else if (e.target.value === "mstech") {
-      imgpath = "../../../public/img/mstech.png";
+      imgpath = "../../../public/img/mstech.PNG";
       textValue =
         "starterコースは2022/09～の4期を受講しました。Ms.Techの卒業時点では自分の作りたいものが作れるようになったり仕事の選択肢を増やせていたらいいなと思います🌱";
       setImg(imgpath);
