@@ -5,7 +5,7 @@ import imgFutureURL from "../../../public/img/future.png";
 import imgMstechURL from "../../../public/img/mstech.png";
 import imgTopURL from "../../../public/img/saize.jpg";
 
-export default function Items({ img, setImg, text, setText }) {
+export default function Items({ setImg, setText }) {
   let imgpath = "";
   let textValue = "";
   const onClickChange = (e) => {
